@@ -3,7 +3,7 @@ import { EnvConfig } from './env-config.interface'
 import { ConfigService } from '@nestjs/config'
 
 @Injectable()
-export class EnvCnfiService implements EnvConfig {
+export class EnvConfigService implements EnvConfig {
   constructor(private configService: ConfigService) {}
 
   getAppPort(): number {

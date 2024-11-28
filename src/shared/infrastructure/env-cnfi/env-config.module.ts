@@ -6,7 +6,7 @@ import { join } from 'node:path'
 @Module({
   providers: [EnvConfigService],
 })
-export class EnvConfig extends ConfigModule {
+export class EnvConfigModule extends ConfigModule {
   static forRoot(options: ConfigModuleOptions = {}): Promise<DynamicModule> {
     return super.forRoot({
       ...options,
