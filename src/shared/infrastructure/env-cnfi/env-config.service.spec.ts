@@ -1,15 +1,15 @@
 import { Test, TestingModule } from '@nestjs/testing'
-import { EnvCnfiService } from './env-cnfi.service'
+import { EnvConfigService } from './env-config.service'
 
-describe('EnvCnfiService', () => {
-  let service: EnvCnfiService
+describe('EnvConfigService', () => {
+  let service: EnvConfigService
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [EnvCnfiService],
+      providers: [EnvConfigService],
     }).compile()
 
-    service = module.get<EnvCnfiService>(EnvCnfiService)
+    service = module.get<EnvConfigService>(EnvConfigService)
   })
 
   it('should be defined', () => {
