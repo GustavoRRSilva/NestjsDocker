@@ -23,8 +23,10 @@
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.3.0",
     "@nestjs/core": "^10.0.0",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/platform-fastify": "^10.4.9",
+    "pnpm": "^9.14.4",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
