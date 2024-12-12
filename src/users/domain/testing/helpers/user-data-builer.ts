@@ -1,4 +1,4 @@
-import { faker } from '@faker-js/faker'
+import faker from '@faker-js/faker'
 import { UserProps } from '../../entities/user.entity'
 
 export interface Props {
