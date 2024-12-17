@@ -1,6 +1,5 @@
-import faker from '@faker-js/faker'
 import { UserProps } from '../../entities/user.entity'
-
+import { faker } from '@faker-js/faker'
 export interface Props {
   name?: string
   email?: string
